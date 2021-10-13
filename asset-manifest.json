@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/BackyardUltraTracker/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/BackyardUltraTracker/static/js/main.69332484.chunk.js",
+    "main.js.map": "/BackyardUltraTracker/static/js/main.69332484.chunk.js.map",
+    "runtime-main.js": "/BackyardUltraTracker/static/js/runtime-main.803768fb.js",
+    "runtime-main.js.map": "/BackyardUltraTracker/static/js/runtime-main.803768fb.js.map",
+    "static/js/2.c19a17cf.chunk.js": "/BackyardUltraTracker/static/js/2.c19a17cf.chunk.js",
+    "static/js/2.c19a17cf.chunk.js.map": "/BackyardUltraTracker/static/js/2.c19a17cf.chunk.js.map",
+    "static/js/3.9387ec2a.chunk.js": "/BackyardUltraTracker/static/js/3.9387ec2a.chunk.js",
+    "static/js/3.9387ec2a.chunk.js.map": "/BackyardUltraTracker/static/js/3.9387ec2a.chunk.js.map",
+    "index.html": "/BackyardUltraTracker/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/BackyardUltraTracker/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.c19a17cf.chunk.js.LICENSE.txt": "/BackyardUltraTracker/static/js/2.c19a17cf.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/BackyardUltraTracker/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.803768fb.js",
+    "static/js/2.c19a17cf.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.69332484.chunk.js"
+  ]
+}
