@@ -1,7 +1,33 @@
 import github from './db.js';
+import {
+  ApolloClient,
+  InMemoryCache,
+  ApolloProvider,
+  HttpLink,
+  from,
+} from '@apollo/client';
+import { onError } from '@apollo/client/link.error';
 import { useEffect, useState, useCallback } from 'react';
-import { githubQuery } from './queries/index';
-import { RepoInfo, SearchBox } from './components/index';
+import { githubQuery } from './graphql/queries/index';
+import { AllRunners, RepoInfo, SearchBox } from './components/index';
+
+const errorLink = onError(({ graphqlErrors, networkError }) => {
+  if (graphqlErrors) {
+    graphqlErrors.map(({ message, location, path }) => {
+      alert(`Graphql error ${message}`);
+    });
+  }
+});
+
+const link = from([
+  errorLink,
+  new HttpLink({ uri: 'http://localhost:6969/graphql' }),
+]);
+
+const client = new ApolloClient({
+  cache: new InMemoryCache(),
+  link: link,
+});
 
 function App() {
   let [userName, setUserName] = useState('');
@@ -41,30 +67,33 @@ function App() {
   }, [fetchData]);
 
   return (
-    <div className="App container mt-5">
-      <h1 className="text-primary">
-        <i className="bi bi-diagram-2-fill"></i>Repos
-      </h1>
-      <p>Hey there {userName}</p>
-      <SearchBox
-        totalCount={totalCount}
-        pageCount={pageCount}
-        queryString={queryString}
-        onQueryChange={(myString) => {
-          setQueryString(myString);
-        }}
-        onTotalChange={(myNumber) => {
-          setPageCount(myNumber);
-        }}
-      />
-      {repoList && (
-        <ul className="list-group list-group-flush">
-          {repoList.map((repo) => (
-            <RepoInfo key={repo.id} repo={repo} />
-          ))}
-        </ul>
-      )}
-    </div>
+    <ApolloProvider client={client}>
+      <AllRunners />
+      <div className="App container mt-5">
+        <h1 className="text-primary">
+          <i className="bi bi-diagram-2-fill"></i>Repos
+        </h1>
+        <p>Hey there {userName}</p>
+        <SearchBox
+          totalCount={totalCount}
+          pageCount={pageCount}
+          queryString={queryString}
+          onQueryChange={(myString) => {
+            setQueryString(myString);
+          }}
+          onTotalChange={(myNumber) => {
+            setPageCount(myNumber);
+          }}
+        />
+        {repoList && (
+          <ul className="list-group list-group-flush">
+            {repoList.map((repo) => (
+              <RepoInfo key={repo.id} repo={repo} />
+            ))}
+          </ul>
+        )}
+      </div>
+    </ApolloProvider>
   );
 }
 
