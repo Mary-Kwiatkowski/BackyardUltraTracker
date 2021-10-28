@@ -23,4 +23,4 @@ yarn-debug.log*
 yarn-error.log*
 
 #github personal access key
-scr/db.js
+src/db.js
