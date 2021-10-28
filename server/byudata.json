@@ -1,0 +1,222 @@
+[
+  {
+    "firstName": "Mary",
+    "lastName": "Kwiatkowski",
+    "gender": "F",
+    "age": 26,
+    "checkedIn": "TRUE",
+    "shirtSize": "small",
+    "state": "VA",
+    "yards": 11
+  },
+  {
+    "firstName": "Rick",
+    "lastName": "Kwiatkowski",
+    "gender": "M",
+    "age": 56,
+    "checkedIn": "TRUE",
+    "shirtSize": "large",
+    "state": "VA",
+    "yards": 28
+  },
+  {
+    "firstName": "Billy",
+    "lastName": "Burton",
+    "gender": "M",
+    "age": 45,
+    "checkedIn": "TRUE",
+    "shirtSize": "medium",
+    "state": "GA",
+    "yards": 16
+  },
+  {
+    "firstName": "Grant",
+    "lastName": "Preston",
+    "gender": "M",
+    "age": 33,
+    "checkedIn": "TRUE",
+    "shirtSize": "large",
+    "state": "MD",
+    "yards": 17
+  },
+  {
+    "firstName": "Crystal",
+    "lastName": "Masters",
+    "gender": "F",
+    "age": 30,
+    "checkedIn": "TRUE",
+    "shirtSize": "small",
+    "state": "WA",
+    "yards": 29
+  },
+  {
+    "firstName": "Franklin",
+    "lastName": "Furter",
+    "gender": "M",
+    "age": 65,
+    "checkedIn": "TRUE",
+    "shirtSize": "x-small",
+    "state": "FL",
+    "yards": 41
+  },
+  {
+    "firstName": "Hannah",
+    "lastName": "Abbott",
+    "gender": "F",
+    "age": 21,
+    "checkedIn": "TRUE",
+    "shirtSize": "medium",
+    "state": "FL",
+    "yards": 10
+  },
+  {
+    "firstName": "Mario",
+    "lastName": "Luigi",
+    "gender": "M",
+    "age": 19,
+    "checkedIn": "FALSE",
+    "shirtSize": "large",
+    "state": "CO",
+    "yards": 0
+  },
+  {
+    "firstName": "Yani",
+    "lastName": "Deltoro",
+    "gender": "M",
+    "age": 48,
+    "checkedIn": "FALSE",
+    "shirtSize": "x-large",
+    "state": "IL",
+    "yards": 0
+  },
+  {
+    "firstName": "Chip",
+    "lastName": "Buckingham",
+    "gender": "M",
+    "age": 67,
+    "checkedIn": "TRUE",
+    "shirtSize": "large",
+    "state": "FL",
+    "yards": 6
+  },
+  {
+    "firstName": "Ursula",
+    "lastName": "Walters",
+    "gender": "F",
+    "age": 53,
+    "checkedIn": "TRUE",
+    "shirtSize": "medium",
+    "state": "GA",
+    "yards": 11
+  },
+  {
+    "firstName": "Penelope",
+    "lastName": "Gobstopper",
+    "gender": "F",
+    "age": 41,
+    "checkedIn": "TRUE",
+    "shirtSize": "x-large",
+    "state": "DC",
+    "yards": 8
+  },
+  {
+    "firstName": "Jennifer",
+    "lastName": "Peabody",
+    "gender": "F",
+    "age": 32,
+    "checkedIn": "TRUE",
+    "shirtSize": "small",
+    "state": "AZ",
+    "yards": 19
+  },
+  {
+    "firstName": "Martin",
+    "lastName": "Hankins",
+    "gender": "M",
+    "age": 38,
+    "checkedIn": "TRUE",
+    "shirtSize": "small",
+    "state": "KS",
+    "yards": 22
+  },
+  {
+    "firstName": "Philip",
+    "lastName": "McPhilips",
+    "gender": "M",
+    "age": 69,
+    "checkedIn": "TRUE",
+    "shirtSize": "small",
+    "state": "WA",
+    "yards": 31
+  },
+  {
+    "firstName": "Jamey",
+    "lastName": "Firestone",
+    "gender": "M",
+    "age": 54,
+    "checkedIn": "TRUE",
+    "shirtSize": "medium",
+    "state": "IA",
+    "yards": 39
+  },
+  {
+    "firstName": "Marcus",
+    "lastName": "Lambert",
+    "gender": "M",
+    "age": 44,
+    "checkedIn": "TRUE",
+    "shirtSize": "medium",
+    "state": "VA",
+    "yards": 38
+  },
+  {
+    "firstName": "Kelly",
+    "lastName": "Jefferies",
+    "gender": "F",
+    "age": 30,
+    "checkedIn": "TRUE",
+    "shirtSize": "large",
+    "state": "VA",
+    "yards": 21
+  },
+  {
+    "firstName": "Presley",
+    "lastName": "Swan",
+    "gender": "M",
+    "age": 48,
+    "checkedIn": "TRUE",
+    "shirtSize": "large",
+    "state": "KS",
+    "yards": 24
+  },
+  {
+    "firstName": "Smithers",
+    "lastName": "Smelting",
+    "gender": "M",
+    "age": 31,
+    "checkedIn": "TRUE",
+    "shirtSize": "large",
+    "state": "KS",
+    "yards": 24
+  },
+  {
+    "firstName": "Geof",
+    "lastName": "Flannigan",
+    "gender": "M",
+    "age": 55,
+    "checkedIn": "TRUE",
+    "shirtSize": "medium",
+    "state": "KS",
+    "yards": 9
+  },
+  {
+    "firstName": "Vince",
+    "lastName": "Vance",
+    "gender": "M",
+    "age": 43,
+    "checkedIn": "TRUE",
+    "shirtSize": "large",
+    "state": "VA",
+    "yards": 2
+  }
+]
